@@ -15,7 +15,7 @@ Build App to interact with Microsoft Verifable credential service
 
 Goal :
 
-1. How to design Verifiable credentail card
+1. How to design Verifiable credential 
 2. how to add claims
 3. how to intercept the response through callback end
 4. learn how issuer and verifer API works through Python-Flask 
