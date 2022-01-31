@@ -1,0 +1,41 @@
+{
+  "default": {
+    "locale": "en-US",
+    "card": {
+      "title": "Happy Life Digital Drug Card",
+      "issuedBy": "DeV M4quare",
+      "backgroundColor": "#38761D",
+      "textColor": "#FFFFFF",
+      "logo": {
+        "uri": "https://s4vcdemo.blob.core.windows.net/img/012.png",
+        "description": "VC Drug Card Logo"
+      },
+      "description": "This Digital Drug card is issued to Happy Life Insurance Customer ."
+    },
+    "consent": {
+      "title": "Do you want to get your Drug Card from Happy Life Insurance?",
+      "instructions": "Sign in with your Insurace Provider to get your card."
+    },
+    "claims": {
+      "vc.credentialSubject.firstName": {
+        "type": "String",
+        "label": "First name"
+      },
+      "vc.credentialSubject.lastName": {
+        "type": "String",
+        "label": "Last name"
+      },
+        "vc.credentialSubject.memberId": {
+          "type": "String",
+          "label": "Member number"
+        },
+        "vc.credentialSubject.cardType": {
+          "type": "String",
+          "label": "CardType"
+        }
+    }
+  }
+}
+  
+
+
